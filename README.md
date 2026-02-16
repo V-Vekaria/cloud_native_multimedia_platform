@@ -1,19 +1,55 @@
 # Cloud-Native Multimedia Sharing Platform
 
-A serverless multimedia sharing application built using Azure Functions and Azure cloud-native services.
+A scalable, serverless multimedia sharing platform built using Microsoft Azure cloud-native services.
 
-## Architecture (Planned)
+---
+
+## 🚀 Tech Stack
 
 - Azure Functions (Serverless Compute)
-- Azure Cosmos DB (Metadata Storage)
-- Azure Blob Storage (Media Storage)
-- Azure Static Web Apps (Frontend)
+- Azure Cosmos DB (NoSQL Metadata Storage)
+- Azure Blob Storage (Media Object Storage)
+- Azure Static Web Apps (Frontend Hosting)
 - GitHub Actions (CI/CD)
 
-## Development Approach
+---
 
-- Local-first development using Azure Functions Core Tools
-- Clean commit history
-- Infrastructure aligned with cloud-native best practices
+## 🏗 Architecture Overview
 
-Status: Architecture phase complete. Implementation starting.
+> Detailed diagram will be added during implementation phase.
+
+---
+
+## 📦 Features (Planned)
+
+- RESTful CRUD API for multimedia assets
+- Serverless compute model
+- Partitioned NoSQL metadata storage
+- Secure blob media upload
+- CI/CD automated deployment
+- Monitoring & Application Insights integration
+
+---
+
+## 🧠 Cloud-Native Principles Applied
+
+- Serverless architecture
+- Consumption-based pricing model
+- Horizontal scalability
+- Loose coupling between services
+- Infrastructure abstraction
+
+---
+
+## 🛠 Local Development
+
+Developed locally using:
+- Azure Functions Core Tools
+- Python runtime
+- VS Code
+
+---
+
+## 📌 Project Status
+
+Architecture finalized. Implementation in progress.
